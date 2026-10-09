@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "items": [
+    {
+      "id": "historia",
+      "label": {
+        "es": "Historia",
+        "en": "History"
+      },
+      "href": {
+        "es": "/es/historia/",
+        "en": "/en/historia/"
+      },
+      "enabled": false,
+      "children": []
+    },
+    {
+      "id": "patrimonio-cultura",
+      "label": {
+        "es": "Patrimonio",
+        "en": "Heritage"
+      },
+      "href": {
+        "es": "/es/patrimonio-cultura/",
+        "en": "/en/patrimonio-cultura/"
+      },
+      "enabled": false,
+      "children": []
+    },
+    {
+      "id": "territorio-paisaje",
+      "label": {
+        "es": "Territorio",
+        "en": "Territory"
+      },
+      "href": {
+        "es": "/es/territorio-paisaje/",
+        "en": "/en/territorio-paisaje/"
+      },
+      "enabled": false,
+      "children": []
+    },
+    {
+      "id": "atlas",
+      "label": {
+        "es": "Atlas",
+        "en": "Atlas"
+      },
+      "href": {
+        "es": "/es/atlas/",
+        "en": "/en/atlas/"
+      },
+      "enabled": false,
+      "children": []
+    }
+  ],
+  "search_enabled": false,
+  "language_switcher_enabled": true
+}

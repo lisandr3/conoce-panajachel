@@ -1,0 +1,6 @@
+# Añadir al .gitignore existente cuando configuremos la compilación:
+/dist/
+/.cache/
+.env
+.env.*
+!.env.example

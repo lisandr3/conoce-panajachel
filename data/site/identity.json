@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "name": "Conoce Panajachel",
+  "domain": "conocepanajachel.online",
+  "default_language": "es",
+  "languages": [
+    "es",
+    "en"
+  ],
+  "timezone": "America/Guatemala",
+  "logo": null,
+  "responsible_name": null,
+  "contact_email": null,
+  "description": {
+    "es": "Enciclopedia divulgativa y atlas de Panajachel, Patanatic y San Luis.",
+    "en": "A public encyclopedia and atlas of Panajachel, Patanatic and San Luis."
+  }
+}

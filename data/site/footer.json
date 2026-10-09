@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "show_logo": true,
+  "show_description": true,
+  "columns": [
+    {
+      "id": "explora",
+      "title": {
+        "es": "Explora",
+        "en": "Explore"
+      },
+      "enabled": true,
+      "links": []
+    },
+    {
+      "id": "proyecto",
+      "title": {
+        "es": "El proyecto",
+        "en": "About the project"
+      },
+      "enabled": true,
+      "links": []
+    },
+    {
+      "id": "participa",
+      "title": {
+        "es": "Participa",
+        "en": "Contribute"
+      },
+      "enabled": true,
+      "links": []
+    }
+  ],
+  "legal_links": [],
+  "copyright_holder": "Conoce Panajachel",
+  "contact_enabled": false,
+  "social_links": []
+}
