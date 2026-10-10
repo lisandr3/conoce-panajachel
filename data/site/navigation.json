@@ -11,7 +11,7 @@
         "es": "/es/historia/",
         "en": "/en/historia/"
       },
-      "enabled": false,
+      "enabled": true,
       "children": []
     },
     {
@@ -24,7 +24,7 @@
         "es": "/es/patrimonio-cultura/",
         "en": "/en/patrimonio-cultura/"
       },
-      "enabled": false,
+      "enabled": true,
       "children": []
     },
     {
@@ -37,7 +37,7 @@
         "es": "/es/territorio-paisaje/",
         "en": "/en/territorio-paisaje/"
       },
-      "enabled": false,
+      "enabled": true,
       "children": []
     },
     {
@@ -50,7 +50,7 @@
         "es": "/es/atlas/",
         "en": "/en/atlas/"
       },
-      "enabled": false,
+      "enabled": true,
       "children": []
     }
   ],

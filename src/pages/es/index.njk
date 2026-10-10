@@ -1,0 +1,124 @@
+---
+layout: base.njk
+lang: es
+title: "Un lugar, muchas historias."
+route: ""
+section:
+permalink: /es/index.html
+---
+
+<style>
+  .photo-story {
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    align-items: center;
+    gap: clamp(30px, 6vw, 90px);
+    padding: 40px 0 80px;
+  }
+
+  .photo-story-copy {
+    max-width: 48ch;
+  }
+
+  .photo-story h2 {
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .photo-closing {
+    padding-bottom: 80px;
+  }
+
+  @media (max-width: 760px) {
+    .photo-story {
+      grid-template-columns: 1fr;
+      padding: 20px 0 48px;
+    }
+
+    .photo-story .photo-space {
+      width: 100%;
+      max-width: 380px;
+      margin: auto;
+    }
+
+    .photo-closing {
+      padding-bottom: 48px;
+    }
+  }
+</style>
+
+<section class="wrap hero">
+  <div>
+    <p class="eyebrow">Historia · Patrimonio · Territorio</p>
+
+    <h1>Un lugar, muchas historias.</h1>
+
+    <p class="lead">
+      Un espacio para conocer Panajachel: su memoria, su patrimonio
+      y el territorio que compartimos.
+    </p>
+
+    <div class="actions">
+      <a class="button" href="{{ '/es/historia/' | url }}">
+        Explorar la historia
+      </a>
+
+      <a class="button secondary" href="{{ '/es/atlas/' | url }}">
+        Conocer el atlas
+      </a>
+    </div>
+  </div>
+
+  <figure class="photo-space">
+    <div class="photo-placeholder photo-horizontal">
+      <span>Espacio para fotografía de portada</span>
+    </div>
+  </figure>
+</section>
+
+<section class="wrap intro-band">
+  <h2>Conocer para comprender.</h2>
+
+  <p>
+    El proyecto comienza con historia y patrimonio. Los mapas
+    y las nuevas investigaciones se incorporarán de forma gradual.
+  </p>
+</section>
+
+<section class="wrap photo-story">
+  <figure class="photo-space">
+    <div class="photo-placeholder photo-vertical">
+      <span>Espacio para fotografía de patrimonio</span>
+    </div>
+  </figure>
+
+  <div class="photo-story-copy">
+    <p class="eyebrow">La memoria del lugar</p>
+
+    <h2>Panajachel, a través del tiempo.</h2>
+
+    <p>
+      Esta sección reunirá documentos, historias y estudios sobre
+      Panajachel, Patanatic y San Luis.
+    </p>
+
+    <p>
+      Las fotografías se incorporarán con su descripción,
+      procedencia y créditos.
+    </p>
+
+    <a class="button secondary"
+       href="{{ '/es/patrimonio-cultura/' | url }}">
+      Explorar el patrimonio
+    </a>
+  </div>
+</section>
+
+<section class="wrap photo-closing" aria-label="Paisaje">
+  <figure class="photo-space">
+    <div class="photo-placeholder photo-panoramic">
+      <span>Espacio para fotografía panorámica del territorio</span>
+    </div>
+  </figure>
+</section>

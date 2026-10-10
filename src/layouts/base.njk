@@ -1,1 +1,33 @@
-{# Archivo reservado: se implementará durante la etapa de diseño y configuración de Eleventy. #}
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>{{ title }} · {{ identity.name }}</title>
+  <meta name="description" content="{{ identity.description[lang] | escape }}">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap">
+
+  <link rel="stylesheet" href="{{ '/styles/tokens.css' | url }}">
+  <link rel="stylesheet" href="{{ '/styles/base.css' | url }}">
+  <link rel="stylesheet" href="{{ '/styles/header.css' | url }}">
+  <link rel="stylesheet" href="{{ '/styles/footer.css' | url }}">
+</head>
+
+<body>
+  <a class="skip" href="#contenido">
+    {{ 'Saltar al contenido' if lang == 'es' else 'Skip to content' }}
+  </a>
+
+  {% include "header.njk" %}
+
+  <main id="contenido" tabindex="-1">
+    {{ content | safe }}
+  </main>
+
+  {% include "footer.njk" %}
+
+  <script type="module" src="{{ '/js/main.js' | url }}"></script>
+</body>
+</html>
