@@ -1,1 +1,22 @@
 .site-header{background:var(--cream);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}.header-inner{min-height:96px;display:flex;align-items:center;justify-content:space-between;gap:26px}.brand{text-decoration:none;line-height:1.1;display:block;flex-shrink:0}.brand img{max-width:230px;max-height:70px;display:block}.brand-top{display:block;font-size:.61rem;letter-spacing:.34em;font-weight:700;margin-bottom:5px}.brand-name{font-family:Georgia,serif;font-size:1.9rem}.brand-dot{color:var(--accent-text)}#main-nav{display:flex;gap:32px;align-items:center}.nav-list{display:flex;list-style:none;gap:26px;padding:0;margin:0}.nav-list a{text-decoration:none;font-size:.9rem;padding:12px 0;display:block}.nav-list a:hover,.nav-list a[aria-current]{color:var(--accent-text)}.nav-list a[aria-current]{box-shadow:inset 0 -2px var(--accent-text)}.languages{display:flex;gap:9px;font-size:.75rem}.languages a{text-decoration:none;padding:8px 2px}.languages a[aria-current]{font-weight:800}.nav-dropdown{position:relative}.nav-dropdown summary{cursor:pointer;padding:12px 0}.nav-dropdown ul{position:absolute;right:0;min-width:230px;padding:16px 22px;background:var(--ivory);border:1px solid var(--line);border-radius:8px;list-style:none;box-shadow:0 8px 24px #302a2412}.menu-toggle{background:transparent;border:1px solid var(--olive);border-radius:5px;padding:7px 12px;color:var(--ink)}.menu-toggle[hidden]{display:none}@media(max-width:900px){.header-inner{flex-wrap:wrap;gap:0;min-height:85px;padding-top:16px;padding-bottom:16px}.brand-name{font-size:1.65rem}.menu-toggle:not([hidden]){display:block}#main-nav{width:100%;display:block;padding-top:18px}#main-nav[hidden]{display:none}.nav-list{display:block}.nav-list a{padding:12px 2px;border-bottom:1px solid var(--line)}.languages{margin-top:18px}.nav-dropdown ul{position:static;box-shadow:none}.nav-dropdown summary{padding:12px 2px}}
+.header-inner {
+  min-height: 140px;
+}
+
+.brand img {
+  height: 112px;
+  width: auto;
+  max-height: none;
+  max-width: 280px;
+}
+
+@media (max-width: 900px) {
+  .header-inner {
+    min-height: 100px;
+  }
+
+  .brand img {
+    height: 76px;
+    max-width: 200px;
+  }
+}
